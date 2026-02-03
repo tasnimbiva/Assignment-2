@@ -507,3 +507,187 @@ margin: 0 auto;
   font-size: 13px;
   color: #d0c8e8;
 }
+
+
+@media (max-width: 576px) {
+
+
+  nav {
+    width: 92%;
+    margin: 12px;
+  }
+
+  .menu {
+      display: none;
+    }
+  
+  .nav-logo {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+
+
+
+  .banner {
+    height: auto;
+    padding: 80px 12px;
+  }
+
+  .banner-bg {
+    object-fit: cover;
+    object-position: center top;
+  }
+
+
+  .circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .mic {
+    width: 55px;
+  }
+
+  .banner-content h1 {
+    font-size: 32px;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+  }
+
+  .banner-btn {
+    flex-direction: column;
+  }
+
+  .bnr-btn1,.bnr-btn2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  .podcast {
+    padding: 70px 14px;
+  }
+
+  .podcast h2 {
+    font-size: 28px;
+  }
+
+  .podcast p {
+    font-size: 14px;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 18px;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .stat-box h3 {
+    font-size: 30px;
+  }
+
+  .stat-box span {
+    font-size: 11px;
+    letter-spacing: 0.8px;
+  }
+
+
+  .why-techwave {
+    padding: 80px 14px;
+  }
+
+  .why-techwave h2 {
+    font-size: 32px;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .features-card {
+    padding: 22px;
+    border-radius: 18px;
+  }
+
+  .features-card h3 {
+    font-size: 18px;
+  }
+
+  .features-card p {
+    font-size: 13px;
+  }
+
+  .card5,.card4 {
+    height: auto;
+  }
+
+
+  .video-card h2 {
+    font-size: 32px;
+  }
+
+
+  .host {
+    padding: 70px 14px;
+  }
+
+  .host h2 {
+    font-size: 32px;
+  }
+
+  .host-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-image img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .host-icon {
+    justify-content: center;
+  }
+
+
+.footer {
+    background-position: center top;
+    background-size: cover;
+  }
+
+  .footer-overlay {
+    padding: 50px 16px;
+  }
+
+  .footer-logo {
+    font-size: 32px;
+    margin-bottom: 18px;
+  }
+
+  .footer-icon {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-icon a {
+    font-size: 13px;
+  }
+
+  .footer-copy {
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+
+}
+
